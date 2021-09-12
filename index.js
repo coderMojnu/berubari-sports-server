@@ -29,7 +29,7 @@ client.connect(err => {
     const newsData = req.body;
     newsCollection.insertOne(newsData)
     .then(result => {
-      res.redirect('http://localhost:3000/');
+      res.redirect('https://berubari-sports.web.app/');
     })
   })
 });
