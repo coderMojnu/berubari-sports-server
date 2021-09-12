@@ -30,7 +30,6 @@ client.connect(err => {
     })
   })
 });
-
 app.get('/', (req, res) => {
      res.send("I am working, continue your work")
   })
